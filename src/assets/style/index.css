@@ -47,7 +47,7 @@ header .collumn span {
 }
 
 .volume-slider input {
-  accent-color: #fff;
+  accent-color: #0077ff;
 }
 
 .keys-check input {
@@ -128,6 +128,10 @@ header .collumn span {
   width: 100%;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.piano-keys .key.hide span {
+  display: none;
 }
 
 
