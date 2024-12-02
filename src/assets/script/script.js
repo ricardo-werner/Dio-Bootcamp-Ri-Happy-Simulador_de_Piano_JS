@@ -4,10 +4,10 @@ const volumeSlider = document.querySelector('.volume-slider input');
 
 const keysCheck = document.querySelector('.keys-check input');
 
-let audio = new Audio('src/assets/audios/a.wav')
+let audio = new Audio('src/assets/audios/classicPiano/a.mp3')
 
 const playTune = (key) => {
-  audio.src = `src/assets/audios/${key}.wav`
+  audio.src = `src/assets/audios/classicPiano/${key}.mp3`
   audio.play();
 
   const clickedKey = document.querySelector(`.key[data-key="${key}"]`);
@@ -20,7 +20,7 @@ const playTune = (key) => {
 pianoKeys.forEach((key) => {
 
   key.addEventListener('click', () => playTune(key.dataset.key));
-
+  console.log(key.dataset.key);
 });
 
 document.addEventListener("keydown", (e) => {
