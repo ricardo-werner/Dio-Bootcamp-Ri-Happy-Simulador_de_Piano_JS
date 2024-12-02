@@ -13,3 +13,11 @@ pianoKeys.forEach((key) => {
   key.addEventListener('click', () => playTune(key.dataset.key));
 
 });
+
+document.addEventListener("keydown", (e) => {
+  const key = document.querySelector(`.key[data-key="${e.key}"]`);
+  if (key) {
+    key.classList.add("active");
+    playTune(key.dataset.key);
+  }
+});
