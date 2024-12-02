@@ -5,6 +5,12 @@ let audio = new Audio('src/assets/audios/a.wav')
 const playTune = (key) => {
   audio.src = `src/assets/audios/${key}.wav`
   audio.play();
+
+  const clickedKey = document.querySelector(`.key[data-key="${key}"]`);
+  clickedKey.classList.add('active');
+  setTimeout(() => {
+    clickedKey.classList.remove('active');
+  }, 150);
 }
 
 pianoKeys.forEach((key) => {
