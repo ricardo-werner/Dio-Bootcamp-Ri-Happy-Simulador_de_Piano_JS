@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 780px;
+  width: 1015px;
   border: 1px solid red;
   border-radius: 20px;
   padding: 35px 40px;
@@ -96,7 +96,7 @@ header .collumn span {
 
 .piano-keys .white {
   width: 70px;
-  height: 230px;
+  height: 210px;
   border: 1px solid #000;
   border-radius: 8px;
   background: linear-gradient(#fff 96%, #eee 4%);
@@ -108,8 +108,8 @@ header .collumn span {
 }
 
 .piano-keys .black {
-  width: 44px;
-  height: 140px;
+  width: 45px;
+  height: 130px;
   z-index: 2;
   margin: 0 -22px 0 -22px;
   border: 1px solid #000;
