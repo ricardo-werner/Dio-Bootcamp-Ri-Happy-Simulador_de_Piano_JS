@@ -1,6 +1,6 @@
 # Desenvolvimento da Página do Paino Virtual
 
-Desafio prático do Bootcamp da Ri Happy, Front-end do Zero, para desenvolver uma página que simula um paino com novas aplicações do Javascript.
+Desafio prático do Bootcamp da Ri Happy, Front-end do Zero, para desenvolver uma página que simula um piano com novas aplicações do Javascript.
 
 ## Página estática de Simulador de Piano em JS
 
